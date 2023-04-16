@@ -1,0 +1,13 @@
+{% extends "encyclopedia/layout.html" %} 
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+
+    <h1>Cannot Create Page</h1>
+    <h2>Page Already Exists!</h2>
+    <a href="{% url 'encyclopedia:create' %}">Create Page</a>
+
+{% endblock %}
